@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#heading{
+    margin-left: 250px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin-right: 5px;
+}
+#container{
+    height: 200px;
+    width: 800px;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+#box1{
+    background-color: darkorange;
+    order: 3;
+}
+#box2{
+    background-color: aqua;
+    order: 2;
+}
+#box3{
+    background-color: cadetblue;
+    order: 4;
+}
+#box4{
+    background-color: tomato;
+    order: 1;
+}

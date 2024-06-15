@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries max-width</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: rosybrown;
+            padding: 5px;
+            border: 2px solid slategrey;
+        }
+        @media screen and (max-width: 500px) {
+            .box{
+            height: 150px;
+            width: 150px;
+            background-color: orangered;
+            border: 2px solid lightslategray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Media queries max-width</h1>
+    <div class="box">Box</div>
+</body>
+</html>
